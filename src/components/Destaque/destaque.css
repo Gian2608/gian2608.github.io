@@ -1,0 +1,61 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 22rem;
+}
+
+.escudo {
+  height: 4rem;
+  width: auto
+}
+
+.nome-atleta {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 11.5rem;
+}
+
+.numero-escalacoes {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.posicao {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.classificacao {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+  min-width: 2rem;
+}
